@@ -1,0 +1,113 @@
+.privacy-header {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.big-title {
+    font-size: 55px;
+    font-weight: 700;
+}
+.date {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+.privacy-content {
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.privacy-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+}
+.privacy-sub-title {
+    color: #000;
+    font-size: 19px;
+    font-weight: 600;
+}
+.privacy-text {
+    font-size: 16px;
+    line-height: 2.1
+}
+.privacy-row {
+    margin-bottom: 30px;
+}
+.privacy-text ul {
+    padding-left: 25px;
+}
+.privacy-text ul li {
+    margin-bottom: 17px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .privacy-header {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .big-title {
+        font-size: 28px;
+    }
+    .privacy-content {
+        width: 100%;
+    }
+    .privacy-title {
+        font-size: 17px;
+    }
+    .privacy-title br {
+        content: ""
+    }
+    .privacy-text {
+        font-size: 15px;
+        line-height: 2;
+    }
+    .privacy-sub-title {
+        font-size: 15px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .privacy-content {
+        width: 100%;
+    }
+    .privacy-header {
+        padding-bottom: 50px;
+    }
+    .privacy-title {
+        font-size: 20px;
+    }
+    .big-title {
+        font-size: 45px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .privacy-content {
+        width: 80%;
+    }
+    .privacy-header {
+        padding-bottom: 50px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}

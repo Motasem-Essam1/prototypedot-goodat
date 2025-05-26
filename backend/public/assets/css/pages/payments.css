@@ -1,0 +1,163 @@
+.payments-container {
+  background: #ffe03d;
+  padding: 40px 0 70px 0  ;
+}
+.pays-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 12.52rem;
+  gap: 20px;
+}
+.pays-main-title {
+  font-size: 27px;
+}
+.pays-sub-title {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+.pgc-body {
+  background: #fff;
+  border-radius: 30px;
+  padding: 50px ;
+  box-shadow: 0px 0px 30px #5C5C5C1A;
+}
+.pgc-title {
+    color: #060606;
+    font-size: 20px;
+    font-weight: 800;
+}
+.checkbox-circle .fake-checkbox {
+  width: 22.39px;
+  height: 22px;
+  margin-right: 7px;
+}
+.checkbox-circle .fake-cb-child {
+  padding: 2px;
+}
+.checkbox-text {
+  color: #333;
+  font-weight: 600;
+  width: auto !important;
+}
+.pgc-price {
+  font-size: 16px;
+  color: #333;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #E6E6E6;
+}
+.pgc-pack-price {
+  font-weight: 600;
+  font-size: 18px;
+}
+.pgc-total-price {
+  color: #000;
+  font-size: 20px;
+}
+.pgc-total-price > div {
+  font-weight: bold;
+}
+.inputs-double .form-group-row {
+  width: 46%;
+}
+.payment-option-group {
+    display: flex;
+    align-items: center;
+}
+.po-input {
+    accent-color: #000;
+    width: 20px;
+    height: 20px;
+}
+.po-input:disabled + label {
+    color: #a9a9a9;
+}
+.po-input:disabled + label .po-img {
+    filter: grayscale(1);
+}
+.po-img {
+    height: 50px;
+    width: 55px;
+    object-fit: cover;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .payments-header {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .pays-sub-title {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 30px !important;
+  }
+  .pays-grid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .pgc-body {
+    border-radius: 10px;
+    padding: 20px 25px;
+  }
+  .pgc-title {
+    font-size: 16px;
+  }
+  .pgc-pack-price {
+    font-size: 15px;
+  }
+  .pgc-pack-name {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .pgc-total-price {
+    font-size: 18px;
+  }
+  .payments-actions {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .pgc-body {
+    border-radius: 14px;
+    padding: 30px 25px;
+  }
+  .pgc-title {
+    font-size: 17px;
+  }
+  .pgc-price {
+    font-size: 15px;
+  }
+  .pgc-pack-price {
+    font-size: 17px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .pgc-body {
+    border-radius: 20px;
+    padding: 40px 35px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}

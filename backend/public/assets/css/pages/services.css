@@ -1,0 +1,536 @@
+.services-container {
+  padding: 27px 0 70px;
+}
+.services-flexable {
+  box-shadow: 0px 5px 30px #5C5C5C0D;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.ser-steps {
+  width: 300px;
+  background: #FCFCFC;
+  padding: 60px 40px;
+}
+.ser-steps-container {
+  width: calc(100% - 300px);
+  background: #fff;
+  padding: 30px 50px;
+}
+.step-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  background: #f0f0f0;
+  border: 3px solid #f0f0f0;
+  margin: 0 auto;
+}
+.step-logo .icon {
+  font-size: 26px;
+  line-height: 1;
+  color: #8c8c8c;
+}
+.step-btn {
+    display: inline-flex;
+    margin-top: 10px;
+}
+.steps-actions {
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.step-card-btn {
+  display: block;
+  margin: auto;
+}
+.step-title {
+  color: #8c8c8c;
+  background: #f0f0f0;
+  line-height: 1;
+  padding: 5px 17px;
+  border-radius: 50px;
+  font-size: 15px;
+  border: 3px solid #f0f0f0;
+}
+.step-center-line,
+.step-after-line {
+  width: 4px;
+  background: #f0f0f0;
+  height: 17px;
+  margin: auto;
+}
+.step-after-line {
+  height: 50px;
+}
+
+.step-card-btn.active .step-logo,
+.step-card-btn.active .step-title {
+  background: #ffe03d;
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 30px #5C5C5C1A;
+  color: #000;
+}
+.step-card-btn.active .step-logo .icon {
+  color: #333;
+}
+.step-card-btn.active .step-center-line {
+  background: #ffe03d;
+}
+
+.step-sub-title {
+  color: #6E6E6E;
+  font-size: 16px;
+}
+.sc-double > div {
+  width: 47%;
+}
+.sc-selectbox {
+  border: 2px solid #E6E6E6;
+  border-radius: 7px;
+  box-shadow: none !important;
+}
+.fgr-textarea {
+  height: 130px;
+  resize: none;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.sc-img {
+  position: relative;
+  height: 118px;
+  width: 115px;
+}
+.sc-img-main-title {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+}
+.sc-img {
+  border: 2px dashed #1CE3DC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  padding: 27px 20px;
+  color: #1CE3DC;
+  overflow: hidden;
+}
+.sc-img .icon {
+  font-size: 33px;
+}
+.sc-img-title {
+  color: #1CE3DC;
+  font-size: 13px;
+  font-weight: 600;
+}
+.sc-img-sm {
+  padding: 21px 11px;
+  height: 98px !important;
+  width: 93px !important;
+}
+.sc-img-sm.sc-img .icon {
+  font-size: 24px;
+}
+.sc-img-sm .sc-img-title {
+  font-size: 11px;
+}
+.sc-alert {
+  color: #A1A1A1;
+  font-size: 14px;
+}
+.sc-collection {
+  display: flex;
+  flex-wrap: wrap;
+}
+.other-img-card {
+  margin-right: 13px;
+  margin-bottom: 13px;
+}
+.map-container {
+    position: relative;
+}
+#map {
+  height: 374px;
+  border: 2px solid #E6E6E6;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.map-loader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.map-loader img {
+    width: 75px;
+}
+.map-loader.active {
+    display: flex !important;
+}
+a[href^="https://maps.google.com/maps"],
+.gmnoprint.gm-style-cc {
+    display:none !important
+}
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+#GMapsID div div a div img{
+    display:none;
+}
+.btn-toggle-style {
+    border-radius: 2px;
+    height: 40px;
+    width: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    background: #fff;
+    position: absolute;
+    margin: 10px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-toggle-style .icon {
+    font-size: 24px;
+}
+.btn-toggle-style .icon-sun {
+    display: none;
+}
+.btn-toggle-style.active .icon-sun {
+    display: block !important;
+}
+.btn-toggle-style.active .icon-moon {
+    display: none;
+}
+.places-search {
+  border: 2px solid #E6E6E6;
+  border-radius: 6px;
+  padding: 8px 15px;
+}
+.ps-input .icon {
+  font-size: 18px;
+  color: #333;
+}
+.ps-input input {
+  width: 100%;
+}
+.geo-location {
+  font-size: 14px;
+  padding: 9px 23px;
+    margin-left: 10px;
+}
+.get-loc-span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.geo-location .icon {
+  font-size: 13px
+}
+.step-container {
+  display: none
+}
+.step-container.active {
+  display: block !important
+}
+
+.task-submit-message {
+  padding: 80px 30px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0px 5px 30px #5C5C5C0D;
+  min-height: 600px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+.tsm-logo {
+  width: 100px;
+  height: 100px;
+  background: #ffe03d;
+  border-radius: 100%;
+  color: #333;
+  font-size: 50px;
+  margin: 0 auto 20px ;
+}
+.tsm-title {
+  font-size: 27px;
+}
+.tsm-sub-title {
+  font-size: 15px;
+  color: #6E6E6E;
+}
+.tsm-actions .btn {
+  margin: 0 17px;
+  font-weight: 600;
+}
+
+.steps-cards > button.done .step-logo {
+  background: #333;
+  border: 3px solid #333;
+}
+.steps-cards > button.done .step-logo .icon {
+  color: #fff;
+}
+.steps-cards > button.done .step-title {
+  border: 3px solid #333;
+  background: #333;
+  color: #fff;
+}
+.steps-cards > button.done .step-after-line,
+.steps-cards > button.done .step-center-line {
+  background: #333;
+}
+.sht-res {
+  display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .subscribed-card {
+    border-radius: 10px;
+  }
+  .subsed-title {
+    font-size: 27px;
+  }
+  .subsed-sub-title {
+    font-size: 16px;
+  }
+  .subsed-actions {
+    flex-direction: column-reverse;
+  }
+  .subsed-actions .btn-simple {
+    margin-bottom: 25px;
+    display: inline-block;
+  }
+  .sub-s-title {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .step-after-line {
+    position: absolute;
+    height: 4px;
+    width: 44vw;
+    left: 33px;
+    top: 23px;
+  }
+  .step-card-btn:nth-of-type(2) .step-after-line {
+    left: 19px;
+    width: 39vw;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .services-container {
+    padding: 30px 0 70px;
+  }
+  .breadcrumb-container {
+    display: none;
+  }
+  .sht-res {
+    display: block;
+  }
+  .services-flexable {
+    display: block !important;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .services-flexable > div {
+    width: 100%;
+  }
+  .ser-steps {
+    all: unset;
+  }
+  .ser-steps-container {
+    box-shadow: 0px 5px 30px #5c5c5c0d;
+    border-radius: 12px;
+    padding: 25px 20px;
+  }
+  .steps-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .step-card-btn {
+    margin: 0;
+    position: relative;
+  }
+  .step-logo {
+    position: relative;
+    z-index: 10;
+  }
+  .step-center-line {
+    display: none;
+  }
+  .step-logo {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+  }
+  .step-logo .icon {
+    font-size: 23px;
+  }
+  .step-title {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .sc {
+    display: none;
+  }
+  .sc-double-text {
+    display: block;
+  }
+  .sc-double-text > div {
+    width: 100%;
+    margin-bottom: 1.5rem !important;
+  }
+  .sc-img-bg {
+    width: 100%;
+  }
+  .sc-img-card {
+    width: 100%;
+  }
+  .other-img-card {
+    margin: 0;
+  }
+  .sc-collection {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 12.52rem;
+    gap: 15px;
+  }
+  .sc-img-sm {
+    width: 100%  !important;
+  }
+  .get-loc-span {
+    display: none;
+  }
+  .geo-location {
+    font-size: 14px;
+    padding: 8px 13px;
+  }
+  .geo-location .icon {
+    font-size: 15px;
+    margin: 0 !important;
+  }
+  .places-search {
+    padding: 6px 14px;
+  }
+  .task-submit-message {
+    min-height: auto;
+    border-radius: 10px;
+  }
+  .tsm-title {
+    font-size: 23px;
+    line-height: 1.25;
+    margin-bottom: 10px;
+  }
+  .tsm-actions {
+    flex-direction: column;
+  }
+  .tsm-actions .btn-bg {
+    margin-bottom: 25px;
+    display: inline-block;
+  }
+  #map {
+    height: 320px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .step-after-line {
+    position: absolute;
+    height: 4px;
+    width: 244px;
+    left: 37px;
+    top: 23px;
+  }
+  .step-card-btn:nth-of-type(2) .step-after-line {
+    left: 26px;
+    width: 228px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .ser-steps {
+    width: 200px;
+    padding: 40px;
+  }
+  .ser-steps-container {
+    width: calc(100% - 200px);
+    padding: 30px;
+  }
+  .step-logo {
+    width: 49px;
+    height: 49px;
+  }
+  .step-logo .icon {
+    font-size: 24px;
+  }
+  .step-title {
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  .step-after-line {
+    height: 45px;
+  }
+  .sc-double > div {
+    width: 49%;
+  }
+  .sc-collection {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-gap: 12.52rem;
+    gap: 15px;
+  }
+  .sc-img-sm {
+    height: 98px !important;
+    width: 100% !important;
+  }
+  .other-img-card {
+    margin: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .ser-steps {
+    width: 260px;
+    padding: 40px;
+  }
+  .ser-steps-container {
+    width: calc(100% - 260px);
+    padding: 30px;
+  }
+  .sc-collection {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-gap: 12.52rem;
+    gap: 15px;
+  }
+  .sc-img-sm {
+    height: 110px !important;
+    width: 100% !important;
+  }
+  .other-img-card {
+    margin: 0;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}

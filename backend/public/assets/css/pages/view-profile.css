@@ -1,0 +1,364 @@
+.view-profile-container {
+  margin-bottom: 70px;
+}
+.share-btn .btn {
+  padding: 8px 15px ;
+  color: #6E6E6E;
+}
+.view-profile-user-card {
+  width: 400px;
+}
+.vpuc-body {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0px 5px 30px #5C5C5C0D;
+  padding: 45px 25px;
+  position: relative;
+}
+.view-profile-services {
+  width: calc(100% - 425px)
+}
+.vpuc-action .btn {
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.vpuc-action .btn .icon {
+  font-size: 23px;
+}
+.vpuc-tab-btn {
+  background: #eaeaea;
+  padding: 9px 17px;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+.vpuc-tab-btn:hover,
+.vpuc-tab-btn.active {
+  background: #333333;
+  color: #fff;
+}
+.vps-row {
+  background: #fff;
+  box-shadow: 0px 5px 30px #5C5C5C0D;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+}
+.vps-view {
+  width: 380px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.vps-slide-view {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.vps-pagination {
+  position: absolute;
+  z-index: 10;
+  padding: 15px 8px;
+}
+.vps-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #ffffff70;
+  opacity: 1;
+  box-shadow: 0px 5px 30px #5C5C5C0D !important;
+}
+.vps-pagination .swiper-pagination-bullet-active {
+  background: #fff;
+}
+.vps-details {
+  padding-left: 25px;
+  width: calc(100% - 380px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.vps-fgrow {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.vps-type {
+  font-size: 14px;
+  color: #6E6E6E;
+  font-weight: 600;
+}
+.vps-price {
+  background: #fff9d8;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px 8px 5px 25px;
+  display: inline-block;
+  margin-left: -25px;
+  border-radius: 0 5px 5px 0;
+  margin-bottom: 12px;
+}
+.vps-location {
+  color: #333333;
+  font-weight: 600;
+  font-size: 14px;
+}
+.vps-view-user img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+.vps-title {
+  font-size: 15px;
+  margin-bottom: 7px;
+  line-height: 1;
+}
+.vps-text {
+  color: #6E6E6E;
+  font-size: 13px;
+  font-weight: 600;
+}
+.vps-text .icon {
+  margin-left: 7px;
+}
+.vps-user-product {
+  width: 100%;
+}
+.search-pagination {
+  padding: 30px 0 10px;
+}
+.vps-row .ns-like {
+  top: 25px;
+  right: 25px;
+  z-index: 10;
+}
+.vpr-badge {
+  margin-bottom: 20px;
+}
+.vpr-sub-badge,
+.vpr-comment-row {
+  background: #fff;
+  box-shadow: 0px 5px 30px #5C5C5C0D;
+  border-radius: 20px;
+  padding: 33px 25px;
+}
+.vpr-counter {
+  width: 215px;
+}
+.vpr-progressbars {
+  width: calc(100% - 230px);
+}
+.vpr-counter-cricle {
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+  background: #FCFCFC;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vpr-rate-count {
+  color: #333;
+  font-weight: 600;
+  font-size: 21px;
+}
+.vpr-users-count {
+  color: #A1A1A1;
+  font-size: 15px;
+}
+.pbr-title {
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 7px;
+  line-height: 1;
+}
+.progress-bar-row {
+  margin-bottom: 20px;
+}
+.progress-bar-row:last-of-type {
+  margin-bottom: 0;
+}
+.vpr-comment-row {
+  padding: 25px;
+  margin-bottom: 20px;
+}
+.vprc-user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-right: 13px;
+}
+.vprcu-title {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.vprcu-date {
+  color: #6E6E6E;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1;
+}
+.vprc-text {
+  color: #212121DE;
+  line-height: 1.7;
+  font-size: 15px;
+}
+.view-more-comments .btn {
+  color: #333;
+  font-weight: 600;
+  font-size: 17px;
+}
+.vpuc-body.active-fixed {
+  position: fixed;
+  top: 90px;
+  width: 400px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .vps-slide-view {
+    width: 100%;
+    height: 210px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .view-profile-flexable {
+    display: block;
+  }
+  .view-profile-user-card {
+    margin-bottom: 30px;
+  }
+  .view-profile-user-card,
+  .view-profile-services {
+    width: 100%;
+  }
+  .vps-details {
+    padding-left: 0;
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .vps-slide-view {
+    width: 100%;
+    height: 270px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .vpr-sub-badge {
+    display: block;
+  }
+  .vpr-sub-badge > div {
+    width: 100%;
+  }
+  .vpr-rate {
+    margin-bottom: 40px;
+  }
+  .vpr-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 25px;
+  }
+  .vps-row .ns-like {
+    top: 20px;
+    right: 20px;
+    background: #b4b1b1ba;
+    padding: 10px;
+    border-radius: 0 12px 0 10px;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+  }
+  .vpuc-body.active-fixed {
+    position: static;
+    width: 100%;
+  }
+  .vps-row {
+    display: block;
+    padding: 20px;
+  }
+  .vps-view {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .vps-price {
+    margin-left: -20px;
+    padding-left: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .view-profile-user-card {
+    width: 340px;
+  }
+  .view-profile-services {
+    width: calc(100% - 365px);
+  }
+  .vps-slide-view {
+    width: 100%;
+    height: 190px;
+  }
+  .vps-details {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .view-profile-user-card {
+    width: 330px;
+  }
+  .view-profile-services {
+    width: calc(100% - 345px);
+  }
+  .vpuc-body.active-fixed {
+    width: 330px;
+  }
+  .vps-row {
+    padding: 15px;
+  }
+  .vps-view {
+    width: 240px;
+  }
+  .vps-slide-view {
+    height: 180px;
+  }
+  .vps-details {
+    padding-left: 20px;
+  }
+  .vps-row .ns-like {
+    top: 11px;
+    right: 11px;
+  }
+  .vps-details .title {
+    font-size: 18px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .vps-view {
+    width: 290px;
+  }
+  .vps-slide-view {
+    height: 190px;
+  }
+}
+
+@media (min-width: 1400px) {
+
+}

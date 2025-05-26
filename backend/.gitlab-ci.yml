@@ -1,0 +1,29 @@
+# stages:
+#     - deploy
+# access_server:
+#     stage: deploy
+#     only:
+#         - main
+#     before_script:
+#         - /bin/chmod 0600 /builds/goodat/backend.tmp/SSH_PRIVATE_KEY
+#     script:
+#         - ssh -p 7822 -o StrictHostKeyChecking=no -i $SSH_PRIVATE_KEY prototy5@az1-ts107.a2hosting.com "
+#             cd UAT/GOODAT/goodat.prototype-eg.com/ && git pull && php artisan migrate"
+
+access_server_prod:
+    only:
+        - main
+    before_script:
+        - /bin/chmod 0600 /builds/goodat/backend.tmp/SSH_KEY_DEFT_HOST
+    script:
+        - ssh -p 7822 -o StrictHostKeyChecking=no -i $SSH_KEY_DEFT_HOST deftatco@az1-ts113.a2hosting.com "
+            cd website/PROD/backend && git pull && php artisan migrate"
+
+access_server_uat:
+    only:
+        - development
+    before_script:
+        - /bin/chmod 0600 /builds/goodat/backend.tmp/SSH_KEY_DEFT_HOST
+    script:
+        - ssh -p 7822 -o StrictHostKeyChecking=no -i $SSH_KEY_DEFT_HOST deftatco@az1-ts113.a2hosting.com "
+            cd website/UAT/backend && git pull && php artisan migrate"

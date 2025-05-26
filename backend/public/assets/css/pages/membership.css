@@ -1,0 +1,387 @@
+.membership-container {
+    padding: 70px 0 90px;
+    background: #FFE03D;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.membership-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 12.52rem;
+    gap: 33px;
+}
+
+.memgrid-title {
+    font-size: 51px;
+}
+
+.memgrid-text {
+    font-size: 23px;
+}
+
+.memgrid-text span {
+    font-size: 20px;
+}
+
+.memgrid-view {
+    padding: 50px 0 15px;
+}
+
+.membership-form-container {
+    padding: 60px 100px 30px;
+    background: #fff;
+    border-radius: 28px;
+    box-shadow: 0px 5px 30px #5C5C5C1A;
+}
+
+.membership-title {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 70px;
+}
+/*.membership-connect-card {*/
+/*    border-radius: 11px;*/
+/*    padding: 11px;*/
+/*}*/
+/*.membership-connect-card .icon {*/
+/*    font-size: 22px;*/
+/*    line-height: 1;*/
+/*    font-weight: 500;*/
+/*}*/
+/*.membership-connect-card .icon::before {*/
+/*    color: #fff;*/
+/*}*/
+.mcc-title {
+    margin-left: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #333;
+}
+.google-connect {
+    background: #fff;
+    box-shadow: 0px 3px 30px #8D8D8D1A;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.google-connect img {
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+}
+
+.facebook-connect {
+    background: #4267B2;
+}
+
+.mcc-title {
+    font-weight: 500;
+}
+
+.phone-connect {
+    background: #333333;
+}
+
+.title-line {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #A1A1A1;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 32px 0;
+    line-height: 1;
+    overflow: hidden;
+}
+
+.title-line-text {
+    padding: 0 25px;
+    width: auto;
+    white-space: nowrap;
+}
+
+.wing-line {
+    width: 100%;
+    height: 1px;
+    background: #E6E6E6;
+}
+
+.ask-account {
+    color: #6E6E6E;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.forgot-password-link {
+    font-weight: 600;
+    font-size: 15px;
+    color: #333;
+}
+
+.membership-center {
+    width: 538.5px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.terms-conditions-text {
+    color: #A1A1A1;
+    font-size: 13px;
+}
+
+.terms-conditions-text .btn-simple {
+    padding: 0;
+    text-decoration: underline !important;
+    font-size: 13px;
+}
+
+.toggle-switch-title {
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.membership-bg {
+    /*background-image: url("../img/jobs-bg.png");*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.membership-text {
+    color: #8f8f8f;
+    font-size: 15px;
+}
+
+.number-phone-card {
+    background: #FBFBFB;
+    display: inline-block;
+    padding: 14px 27px;
+    line-height: 1;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wn-btn {
+    color: #6E6E6E;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.mem-sm-title {
+    display: none;
+    font-size: 23px;
+}
+
+.mship-center-vertical {
+    min-height: 250px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .membership-grid {
+        max-width: 430px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .keeped-forgot {
+        display: block;
+        margin-bottom: 35px !important;
+    }
+
+    .forgot-password-link {
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .form-verify .code-input {
+        width: 40px;
+        height: 55px;
+        font-size: 23px;
+    }
+
+    .form-verify > div > .code-input:not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .membership-bg {
+        background: none !important;
+    }
+
+    .membership-grid,
+    .membership-center {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 0;
+        padding: 60px 25px;
+        background: #fff;
+        border-radius: 28px;
+        box-shadow: 0px 5px 30px #5c5c5c1a;
+    }
+
+    .membership-container {
+        background: none;
+        padding: 30px 0 50px
+    }
+
+    .mem-card-details {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .memgrid-title {
+        font-size: 30px;
+    }
+
+    .memgrid-text {
+        font-size: 17px;
+        line-height: 2.3;
+    }
+
+    .memgrid-view {
+        display: none;
+    }
+
+    .membership-form-container {
+        all: unset;
+    }
+
+    .membership-title {
+        display: none;
+    }
+
+    .memgrid-text span {
+        padding: 6px 10px;
+        font-size: 16px;
+    }
+
+    .title-line {
+        font-size: 12px;
+    }
+
+    .mem-sm-title {
+        display: block;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .form-verify .code-input {
+        width: 40px;
+        height: 74px;
+        font-size: 23px;
+    }
+
+    .form-verify > div > .code-input:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .membership-grid,
+    .membership-center {
+        padding: 60px 80px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .memgrid-title {
+        font-size: 28px;
+    }
+
+    .memgrid-text {
+        font-size: 17px;
+    }
+
+    .memgrid-text span {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .membership-form-container {
+        padding: 50px 30px;
+    }
+
+    .membership-title {
+        margin-bottom: 40px;
+    }
+
+    .phone-connect {
+        margin-bottom: 20px !important;
+    }
+
+    .keeped-forgot {
+        display: block;
+        margin-bottom: 35px !important;
+    }
+
+    .forgot-password-link {
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .form-verify .code-input {
+        width: 40px;
+        height: 70px;
+        font-size: 23px;
+    }
+
+    .form-verify > div > .code-input:not(:last-child) {
+        margin-right: 13px;
+    }
+
+    .membership-center .membership-form-container {
+        padding: 60px 80px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .memgrid-title {
+        font-size: 42px;
+    }
+
+    .membership-form-container {
+        padding: 60px 50px 30px;
+    }
+
+    .memgrid-text {
+        font-size: 20px;
+    }
+
+    .memgrid-text span {
+        font-size: 17px;
+    }
+
+    .form-verify .code-input {
+        width: 40px;
+        height: 70px;
+        font-size: 23px;
+    }
+
+    .form-verify > div > .code-input:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .membership-center .membership-form-container {
+        padding: 60px 80px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}

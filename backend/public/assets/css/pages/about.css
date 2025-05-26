@@ -1,0 +1,268 @@
+.about-header {
+    min-height: 430px;
+    background-size: cover;
+    background-position: center;
+}
+.header-overlay {
+    min-height: 430px;
+    background: rgba(0, 0, 0,  0.6);
+    padding: 110px 20px 50px;
+}
+.breadcrumb-url {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+a.breadcrumb-url:hover {
+    color: #fff;
+    text-decoration: underline !important;
+}
+.divider {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #FFE03D;
+    display: inline-flex;
+}
+.about-main-title {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+.about-header .text {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #eee;
+}
+.about-widget-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.about-widget-view {
+    width: calc(100% - 590px)
+}
+.about-widget-view img {
+    width: 100%;
+    /*transform: scale(0.9);*/
+}
+.about-widget-details {
+    width: 500px
+}
+.about-container-widgets {
+    padding: 100px 0
+}
+.about-sub-title {
+    color: #FFE03D;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+.about-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 27px;
+}
+.about-text {
+    font-size: 17px;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+.about-action .button-default {
+    border-radius: 0;
+}
+.about-widget-bg {
+    background: #fff;
+    height: auto;
+    padding: 80px 100px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.progress-bar-row {
+    margin-bottom: 30px;
+}
+.correct-benefit-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+.correct-benefit-row .icon {
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFE03D;
+    margin-right: 16px;
+}
+.correct-benefit-row .about-text {
+    margin: 0;
+    font-size: 15px;
+}
+.newsletter-container {
+    background: #fff;
+    padding: 50px 0;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+}
+.newsletter-box img {
+    width: 70px;
+    margin-bottom: 7px;
+}
+.newsletter-box .about-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.newsletter-box .about-text {
+    margin-bottom: 20px;
+}
+.newsletter-input-group {
+    display: flex;
+    justify-content: center;
+}
+.newsletter-input-group input {
+    min-width: 320px;
+    border: 1px solid #e9e9e9;
+    border-right: none;
+    padding: 10px 20px;
+}
+.newsletter-input-group .btn {
+    border: none;
+    border-radius: 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .about-widget-block {
+        flex-wrap: wrap;
+    }
+    .about-widget-block > div {
+        width: 100%;
+    }
+    .about-header,
+    .header-overlay {
+        min-height: 300px;
+    }
+    .header-overlay {
+        padding-top: 70px;
+    }
+    .breadcrumb-url {
+        font-size: 14px;
+    }
+    .divider {
+        width: 7px;
+        height: 7px;
+        margin: 0 8px;
+    }
+    .about-main-title {
+        font-size: 28px;
+    }
+    .about-header .text br {
+        content: ""
+    }
+    .about-widget-view {
+        margin-bottom: 50px;
+        order: 1
+    }
+    .about-widget-details {
+        order: 2
+    }
+    .about-sub-title {
+        font-size: 16px;
+        margin-bottom: 9px;
+    }
+    .about-title {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .about-text {
+        font-size: 15px;
+    }
+    .correct-benefit-row .icon {
+        top: 5px;
+        font-size: 17px;
+        margin-right: 12px;
+    }
+    .about-widget-bg {
+        padding: 40px 30px;
+    }
+    .about-widget-bg .about-title {
+        margin-bottom: 25px;
+    }
+    .newsletter-input-group input {
+        max-width: 100%;
+        min-width: auto;
+    }
+    .newsletter-container {
+        padding: 30px 0 50px;
+    }
+    .newsletter-box img {
+        width: 60px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about-header,
+    .header-overlay {
+        min-height: 400px;
+    }
+    .about-widget-details {
+        width: 350px;
+    }
+    .about-widget-view {
+        width: calc(100% - 380px);
+    }
+    .about-sub-title {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .about-title {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .about-text {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .about-widget-bg {
+        padding: 40px 30px;
+    }
+    .about-widget-bg .about-title {
+        font-size: 21px;
+        margin-bottom: 19px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about-widget-details {
+        width: 460px;
+    }
+    .about-widget-view {
+        width: calc(100% - 510px);
+    }
+    .about-widget-bg {
+        padding: 60px 40px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}

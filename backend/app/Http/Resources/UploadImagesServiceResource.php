@@ -1,0 +1,49 @@
+<?php
+
+namespace App\Http\Resources;
+
+use App\Services\LocationService;
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class UploadImagesServiceResource extends JsonResource
+{
+    /**
+     * Transform the resource into an array.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return array|\Illuminate\Contracts\Support\Arrayable|\JsonSerializable
+     */
+
+    public function toArray($request)
+    {
+        $image = $this->images->first() ? asset($this->images->first()->image_path) : '';
+        return [
+            'id' => $this->id,
+            //'average' => $this->average,
+            'average' => $this->CustomerReview ? +sprintf("%0.2f", $this->CustomerReview->rate) : 0,
+            'user_average' => $this->user->CustomerReview ? +sprintf("%0.2f", $this->user->CustomerReview->rate) : 0,
+            'user' => $this->user->name,
+            'user_id' => $this->user->id,
+//            'user_avatar' => getenv('APP_URL'). "/" . $this->user->user_data->avatar,
+            'user_avatar' => asset($this->whenLoaded('user')->user_data->avatar),
+            'parent_category_id' => $this->parent_category_id,
+            'parent_category' => $this->parentCategory ? $this->parentCategory->category_name : '',
+            'category_id' => +$this->category_id,
+            'service_image' => $image,
+            'category' => $this->category ? $this->category->sub_category_name : '',
+            'service_name' => $this->service_name,
+            'service_slug' => $this->service_slug,
+            'service_description' => $this->service_description,
+            'starting_price' => +$this->starting_price,
+            'ending_price' => +$this->ending_price,
+            'location_lng' => +$this->location_lng,
+            'location_lat' => +$this->location_lat,
+            //'location' => $location,
+            'is_active' => +$this->is_active,
+            'is_like' => $this->is_like,
+            'likes_count' => $this->likes_count,
+            'images' => ImageResource::collection($this->whenLoaded('images')),
+            'created_at' => $this->created_at->diffForHumans()
+        ];
+    }
+}
